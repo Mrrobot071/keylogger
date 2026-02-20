@@ -6,16 +6,15 @@ Este projeto consiste em um sistema de captura de teclas (**Keylogger**) que env
 ## 🏗️ Estrutura do Projeto
 
 * **`keylogger.py`**: O script cliente que captura as teclas e gerencia o envio assíncrono para o servidor.
-* 
-**`app.py`**: O servidor web (API) que recebe e exibe os logs.
 
 
-* 
-**`requirements.txt`**: Lista de dependências necessárias para o servidor rodar no ambiente de produção.
+* **`app.py`**: O servidor web (API) que recebe e exibe os logs.
 
 
-* 
-**`key.bat`**: Script de automação para Windows que instala as bibliotecas e inicia o monitoramento local.
+* **`requirements.txt`**: Lista de dependências necessárias para o servidor rodar no ambiente de produção.
+
+
+* **`key.bat`**: Script de automação para Windows que instala as bibliotecas e inicia o monitoramento local.
 
 
 
@@ -29,12 +28,10 @@ Para manter o monitoramento ativo 24h por dia, recomenda-se o uso da plataforma 
 
 O servidor utiliza **Flask** para a rota de recebimento e **Gunicorn** como servidor HTTP de produção.
 
-* 
-**Arquivo de dependências**: `requirements.txt` deve conter `flask` e `gunicorn`.
+* **Arquivo de dependências**: `requirements.txt` deve conter `flask` e `gunicorn`.
 
 
-* 
-**Porta dinâmica**: O servidor está configurado para ler a porta da variável de ambiente `PORT`, garantindo compatibilidade com a nuvem.
+* **Porta dinâmica**: O servidor está configurado para ler a porta da variável de ambiente `PORT`, garantindo compatibilidade com a nuvem.
 
 
 
