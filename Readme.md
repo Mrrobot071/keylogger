@@ -43,8 +43,7 @@ O servidor utiliza **Flask** para a rota de recebimento e **Gunicorn** como serv
 2. No painel do Render, crie um novo **Web Service** conectado ao seu repositório.
 
 
-3. 
-**Comando de Inicialização (Start Command)**: `gunicorn app:app`.
+3. **Comando de Inicialização (Start Command)**: `gunicorn app:app`.
 
 
 4. Copie a URL gerada (ex: `https://seu-app.onrender.com`).
