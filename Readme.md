@@ -99,6 +99,5 @@ Basta executar o arquivo `key.bat`. Ele realizará os seguintes passos automatic
 * **Armazenamento**: O servidor atual apenas imprime os logs no console do Render. Para persistência a longo prazo, deve-se integrar um banco de dados como **MongoDB** ou **Supabase**.
 
 
-* 
-**Limitação da Nuvem**: No plano gratuito do Render, a instância pode demorar alguns segundos para "acordar" após períodos de inatividade.
+* **Limitação da Nuvem**: No plano gratuito do Render, a instância pode demorar alguns segundos para "acordar" após períodos de inatividade.
 
