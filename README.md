@@ -1,12 +1,25 @@
 # keylogger1
 
-Projeto keylogger1.
+## Descricao
+Este repositorio envolve: projeto em Python.
 
-## Sobre
-Repositorio em **Python**.
-
+## Estrutura
+```nkeylogger1/
++-- .gitignore
++-- app.py
++-- key.bat
++-- keylogger.py
++-- LICENSE
++-- Nuvem.txt
++-- README.md
++-- requirements.txt
+```n
 ## Como usar
-Clone o repositorio e siga as instrucoes especificas do projeto.
+1. Instale as dependencias (pip install -r requirements.txt se existir).
+2. Execute o script principal (ex.: python main.py).
+
+## Tecnologias
+- Linguagem: Python
 
 ## Licenca
 MIT
